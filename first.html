@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      #title{
+        transform: translateY(150%);
+        color:white;
+        font-size:200px;
+        font-family: "Hanna";
+        margin-top:0px;
+      }
+
+      .image{
+            height: calc(100vh);
+            background: url(back.jpg) no-repeat center center;
+            background-size: cover;
+            background-position: center;
+            min-height: 100%;
+            min-width: 100%;
+        }
+
+      #button1{
+       margin-right: 100px;
+       transform: translateY(150%);
+       outline: 0;
+       border: 0;
+       background:none;
+      }
+    </style>
+  </head>
+  <script>  </script>
+<!--자바스크립트 종료-->
+  <body style="margin: 0px">
+    <div class = "image"> <!--배경 이미지-->
+      <center>
+        <h1 id="title">animal vision</h1>  <!--제목-->
+
+        <ol>   <!--동물 list-->
+<!--자바스크립트를 따로 작성하게 되면 온클릭="location.href='파일이름.html'"로 작성하고 한 스크립트에 작성하면 함수를 불러온다-->
+          <button type="button" class="btm-imag1" id="button1" onclick="location.href='mousevision.html'"><img src="mouse_.png" width=200px></button>
+          <button type="button" class="btm-image2" id="button1" onclick="location.href='flyvision.html'"><img src="fly_.png" width=200px></button>
+          <button type="button" class="btm-image3" id="button1" onclick="location.href='snakevision.html'"><img src="snake_.png" width=200px></button>
+        </ol>
+      </center>
+    </div>
+  </body>
+</html>
